@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# System generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sui Move build artifacts
+*.mv
+*.abi
+*.bcs
+*.bls
+
+# Compiled artifacts and output directories
+move_build/
+build/
+release/
+target/
+
+# Dependencies
+.move/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific files
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.rej
+
+# IDE or Editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Git-specific files
+*.orig
